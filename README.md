@@ -1,5 +1,5 @@
 # Project Overview
-
+![Dashboard Image](assets/dashboard_image.png)
 Helldivers 2, developed by a passionate team at Arrowhead Studios, has taken the gaming world by storm in 2024. With a development team of 100 creators, this title has become an instant hit among indie and mainstream audiences alike. Unlike many larger studios that may lose touch with their player base, Arrowhead Studios prides itself on creating games that they personally want to play and continuously listening to their community's feedback. This close interaction with players and commitment to quality has made Helldivers 2 not only a commercial success but also a beloved part of many gamers' libraries. The game’s design reflects a deep understanding of fun, challenge, and replayability, which are core to its widespread appeal.
 
 ## Objective
