@@ -27,7 +27,7 @@ The main objective of this project is to develop a tool that assists the develop
 - **Apache Airflow**: Used for scheduling tasks, ensuring that data collection and analysis are performed consistently every week, keeping the feedback loop current and relevant.
 
 ## Sources
-- [SteamWeb Unofficial API] (https://github.com/Revadike/InternalSteamWebAPI/wiki)
+- [SteamWeb Unofficial API](https://github.com/Revadike/InternalSteamWebAPI/wiki)
 
 ## Findings
 
