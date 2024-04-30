@@ -23,3 +23,15 @@ The main objective of this project is to develop a tool that assists the develop
 - **Apache Airflow**: Used for scheduling tasks, ensuring that data collection and analysis are performed consistently every week, keeping the feedback loop current and relevant.
 
 The integration of these technologies ensures that the development team can remain agile and responsive to the community's needs, ultimately leading to a more enjoyable and robust gaming experience for all Helldivers 2 players.
+
+## Findings
+
+Through the continuous use of our tool, we have uncovered significant insights regarding the performance and player experience of Helldivers 2 on PC:
+
+- **Server and Performance Issues**: These issues were most prominent at the game’s launch. The unprecedented success and player influx exceeded expectations, leading to initial server overloads. Thankfully, these issues have shown a marked decrease as the team swiftly scaled the server capacities to better meet demand.
+
+- **Connectivity Issues**: There has been a significant reduction in connectivity-related complaints. Currently, less than 40 reviews mention such issues, indicating improvements in server response and stability.
+
+- **Content Diversity and Engagement**: While overall content issues have decreased, a recurring theme in player feedback highlights a lack of diversity and the monotonous nature of missions. This points to a potential area for development to introduce more varied and engaging content to enrich the player experience.
+
+- **Crashes**: This category remains a critical concern. Following a patch in March, there was a spike with over 6,000 reviews reporting crash issues. Although the frequency of such reports has lessened, there were still around 1,000 reviews citing crashes as of April 21. This ongoing issue indicates a need for further investigation and swift resolution to maintain player trust and satisfaction.
