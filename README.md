@@ -20,7 +20,8 @@ The main objective of this project is to develop a tool that assists the develop
 
 ## Technologies Used
 
-- **Python**: Utilized for scripting, data scraping, and calling the Steamworks API to gather real-time data and feedback from the Steam community.
+- **Python**: Utilized for scripting, data scraping, data cleaning and calling the Steamworks API to gather real-time data and feedback from the Steam community.
+  - **BERTopic**: Utilized for topical modeling to identify the top topics that users are talking about. 
 - **Tableau**: Employed to visualize data and insights derived from the analysis, enabling the team to make informed decisions quickly and efficiently.
 - **Apache Airflow**: Used for scheduling tasks, ensuring that data collection and analysis are performed consistently every week, keeping the feedback loop current and relevant.
 
