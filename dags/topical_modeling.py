@@ -16,6 +16,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 # Download necessary NLTK resources
 nltk.download('stopwords', quiet=True)
 
+
 def preprocess(text):
     """
     Processes the input text by normalizing, removing noise, and extracting meaningful tokens.
@@ -52,6 +53,7 @@ def preprocess(text):
         logging.error(f"Error in text preprocessing: {e}")
         return ""
 
+
 def setup_topic_model():
     """
     Configures the HDBSCAN and BERTopic models.
@@ -63,6 +65,7 @@ def setup_topic_model():
     bertopic_model = BERTopic(language="english", calculate_probabilities=True, verbose=True,
                               embedding_model=SentenceTransformer('all-mpnet-base-v2'), hdbscan_model=hdbscan_model)
     return bertopic_model
+
 
 def enrich_data_with_topics(data, bertopic_model):
     """
@@ -83,6 +86,7 @@ def enrich_data_with_topics(data, bertopic_model):
         logging.error(f"Error in topic modeling: {e}")
         return data
 
+
 def main():
     logging.info("Loading and cleaning data...")
     reviews_data = pd.read_csv('hd2_reviews.csv')
@@ -101,6 +105,7 @@ def main():
     bertopic_model.save("bertopic_model", serialization="pickle")
 
     logging.info("Processing complete.")
+
 
 if __name__ == "__main__":
     main()
