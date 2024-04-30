@@ -22,11 +22,9 @@ The main objective of this project is to develop a tool that assists the develop
 ## Technologies Used
 
 - **Python**: Utilized for scripting, data scraping, data cleaning and calling the Steamworks API to gather real-time data and feedback from the Steam community.
-  - **BERTopic**: Utilized for topical modeling to identify topics. This allows the team to pinpoint emerging trends and issues in player feedback, facilitating targeted improvements.
+  - **BERTopic**: Utilized for topical modeling to identify the top topics that users are talking about. This allows the team to pinpoint emerging trends and issues in player feedback, facilitating targeted improvements.
 - **Tableau**: Employed to visualize data and insights derived from the analysis, enabling the team to make informed decisions quickly and efficiently.
 - **Apache Airflow**: Used for scheduling tasks, ensuring that data collection and analysis are performed consistently every week, keeping the feedback loop current and relevant.
-
-The integration of these technologies ensures that the development team can remain agile and responsive to the community's needs, ultimately leading to a more enjoyable and robust gaming experience for all Helldivers 2 players.
 
 ## Findings
 
@@ -39,3 +37,15 @@ Through the continuous use of our tool, we have uncovered significant insights r
 - **Content Diversity and Engagement**: While overall content issues have decreased, a recurring theme in player feedback highlights a lack of diversity and the monotonous nature of missions. This points to a potential area for development to introduce more varied and engaging content to enrich the player experience.
 
 - **Crashes**: This category remains a critical concern. Following a patch in March, there was a spike with over 6,000 reviews reporting crash issues. Although the frequency of such reports has lessened, there were still around 1,000 reviews citing crashes as of April 21. This ongoing issue indicates a need for further investigation and swift resolution to maintain player trust and satisfaction.
+
+## Importance of This Tool for an Indie Gaming Company
+
+For an indie gaming company such as Arrowhead Studios, this tool is not just a convenience—it's a strategic asset. Indie developers often face intense competition from larger studios with more resources. As such, the ability to rapidly and efficiently adapt to player feedback can significantly distinguish an indie game in a crowded market.
+
+- **Enhanced Player Satisfaction**: By swiftly identifying and addressing issues, the tool helps maintain and increase player satisfaction, which is crucial for word-of-mouth marketing and long-term success. Satisfied players are more likely to recommend the game to others, driving organic growth.
+
+- **Community Engagement**: The tool allows the development team to stay closely engaged with their community by monitoring and responding to player feedback. This ongoing dialogue between players and developers fosters a loyal community and enhances the game’s reputation.
+
+- **Agile Development**: With the insights gained from the tool, the development team can quickly pivot or iterate on their content and features. This agility allows them to continuously improve the game, ensuring it remains relevant and exciting to both new and existing players.
+
+- **Market Insight**: Understanding player behavior and preferences helps the studio make informed decisions about future projects or updates. The ability to anticipate and meet player demands can set an indie studio apart from its competitors.
