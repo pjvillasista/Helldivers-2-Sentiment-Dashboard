@@ -1,4 +1,5 @@
 ![Dashboard Image](assets/dashboard_image.png)
+[**CHECK THE TABLEAU DASHBOARD HERE** ➡️](https://public.tableau.com/app/profile/pjvillasista/viz/Helldivers2ExecutiveSentimentDashboard/Dashboard1)
 
 # Project Overview
 
